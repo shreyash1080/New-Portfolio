@@ -1,0 +1,559 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(0, 0, 33);
+  overflow-x: hidden; 
+  color: white;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: white;
+}
+
+.headClass {
+  width: 100%;
+  background-color: rgb(1, 1, 38);
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  height: 5rem;
+  position: fixed;
+  top: 0;
+}
+
+nav,
+.headClass {
+  font-size: 21px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+a {
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+nav > a:hover {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+
+#headHead {
+  color: white;
+  font-family: cursive;
+  font-size: 21px;
+  float: left;
+  position: absolute;
+  left: 0;
+  margin-left: 60px;
+
+}
+
+
+
+
+
+
+
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 120px 0;
+  align-items: center;
+}
+
+.firstSection > div {
+  width: 40%;
+}
+.leftsection {
+  font-size: 3rem;
+  margin: 30px 0;
+}
+.rightsection {
+  width: 30%;
+}
+
+.nameclass {
+  color: rgb(90, 67, 203);
+}
+
+#element {
+  color: rgb(90, 67, 203);
+}
+
+.btn_para {
+  margin: 20px;
+  padding: 20px;
+}
+
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1px;
+  margin: 40px 84px;
+}
+
+
+
+.ToolsIUsedSection {
+ 
+  max-width: 100vh;
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  
+}
+
+.ToolsIUsedSection >h1
+{
+  padding: 80px;
+}
+
+.toolContainer {
+  display: flex;
+  
+}
+
+
+.tools {
+  width: 240px;
+  height: 300px;
+  background-color: rgb(33, 29, 53);
+  margin: 10px 20px;
+  
+}
+.toolContainer img{
+  margin-top: 50px;
+  margin-bottom: 40px;
+
+}
+.readmore{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+
+}
+.readmore img{
+  margin-top:40px;
+ 
+}
+.readmore button{
+  background-color: transparent;
+  padding: 2px;
+  border: none;
+ color:rgb(90, 67, 203);
+ font-size: 16px;
+ margin-right: 10px;
+}
+
+.popup{
+  background-color: rgb(33, 29, 53);
+  width:450px;
+  height:250px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 10px;
+  transform: translate(-50%,-50%) scale(0.1);
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup
+{
+  visibility: visible;
+  top: 1700px;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+.popupcss
+{  background-color: rgb(33, 29, 53);
+  width:450px;
+  height:250px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 10px;
+  transform: translate(-50%,-50%) scale(0.1);
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popupcss
+{
+  visibility: visible;
+  top: 1700px;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+
+
+
+.popupjs
+{  background-color: rgb(33, 29, 53);
+  width:450px;
+  height:250px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 10px;
+  transform: translate(-50%,-50%) scale(0.1);
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popupjs
+{
+  visibility: visible;
+  top: 1700px;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+
+
+
+
+
+
+.popupgit
+{  background-color: rgb(33, 29, 53);
+  width:450px;
+  height:250px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 10px;
+  transform: translate(-50%,-50%) scale(0.1);
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popupgit
+{
+  visibility: visible;
+  top: 1700px;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+
+
+
+
+
+.popup button{
+  background-color: transparent;
+  border: none;
+  float: right;
+  padding-top: 5px;
+  padding-right: 5px;
+
+}
+
+.popup h1{
+  float: left;
+  margin-top: 20px;
+}
+.popup > p{
+  padding-top: 80px;
+text-align: left;
+}
+
+
+
+.popupcss button{
+  background-color: transparent;
+  border: none;
+  float: right;
+  padding-top: 5px;
+  padding-right: 5px;
+
+}
+
+.popupcss h1{
+  float: left;
+  margin-top: 20px;
+}
+.popupcss > p{
+  padding-top: 80px;
+text-align: left;
+}
+
+
+
+
+.popupjs button{
+  background-color: transparent;
+  border: none;
+  float: right;
+  padding-top: 5px;
+  padding-right: 5px;
+
+}
+
+.popupjs h1{
+  float: left;
+  margin-top: 20px;
+}
+.popupjs > p{
+  padding-top: 80px;
+text-align: left;
+}
+
+
+
+
+
+
+.popupgit button{
+  background-color: transparent;
+  border: none;
+  float: right;
+  padding-top: 5px;
+  padding-right: 5px;
+
+}
+
+.popupgit h1{
+  float: left;
+  margin-top: 20px;
+}
+.popupgit > p{
+  padding-top: 80px;
+text-align: left;
+}
+
+
+
+
+
+
+
+.htmlpara{
+  color: darkgoldenrod;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  display: none; /* Initially hidden */
+
+}
+
+
+
+
+
+
+
+
+
+
+.introduction {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.webtopimg {
+  float: left;
+  margin-right: 30px;
+}
+
+.webimg {
+  width: 25%;
+  border-radius: 70%;
+  float: left;
+  margin-right: 30px;
+}
+
+.iosandroid {
+  border-radius: 200%;
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+
+p {
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+a {
+  margin: 10px 10px;
+}
+
+.middle_container {
+  margin: 100px 0;
+}
+
+.contact-messege {
+  width: 40%;
+  margin: 40px auto 60px; 
+}
+
+.copyright {
+  color: #eaf6f6;
+}
+
+#web-img {
+  width: 300px;
+}
+
+.bottom_container-top {
+  background-color: rgb(0, 0, 33);
+  border: 2px solid white;
+  border-width: 2px 0px 0px 0px;
+  padding: 50px 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#AboutIMG {
+  width: 400px;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-right: 30px;
+}
+
+.Aboutimgesc {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.aboutme h1 {
+  padding-bottom: 90px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.projects h1 {
+  padding: 100px;
+}
+
+.project-container {
+  width: 300px;
+  height: 430px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(90, 67, 203, 0.7);
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-bottom: 200px;
+ padding: 10px;
+}
+
+.project-container > h2
+{
+  padding: 10px;
+}
+
+
+.project-container:nth-child(2) {
+  margin-top: -200px; 
+}
+
+
+.appleimg {
+  width: 300px;
+  height: 200px;
+  background-color: azure;
+  border-radius: 15px;
+}
+
+#aboutME,
+#skills,
+.contact-me {
+  padding-top: 80px;
+}
+
+label {
+  color: #f5f5f5;
+}
+
+.bottom-container {
+  margin-left: 200px;
+}
+
+input {
+  margin: 0px 0px 5px 20px;
+  border-radius: 3px;
+  border: none;
+}
+
+textarea {
+  border-radius: 10px;
+}
+
+.button-submit {
+  border: none;
+  width: 120px;
+  border-radius: 10px;
+  height: 40px;
+  background-color: rgb(90, 67, 203);
+  color: white;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.finputsec {
+  padding: 40px;
+}
+
+.finputsec input[type="text"],
+.finputsec input[type="email"] {
+  padding: 6px;
+  margin-bottom: 20px;
+}
+
+.inputFromUser textarea {
+  margin: 30px;
+}
