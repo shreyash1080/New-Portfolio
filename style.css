@@ -110,11 +110,10 @@ main hr {
 
 
 .ToolsIUsedSection {
- 
   max-width: 100vh;
   margin: auto;
-  padding: 50px;
   display: flex;
+  flex-wrap: wrap; 
   align-items: center;
   justify-content: center;
   padding: 80px;
@@ -445,9 +444,9 @@ a {
 }
 
 #AboutIMG {
-  width: 400px;
+  width: 200px;
+  height: 300px;
   border-radius: 15px;
-  margin-right: 10px;
   margin-right: 30px;
 }
 
@@ -558,31 +557,111 @@ textarea {
   margin: 30px;
 }
 
-
-@media screen and (max-width: 768px) {
-  .aboutme {
-     flex-direction: column;
-     text-align: center;
+@media (max-width: 768px) {
+  /* General Styles for Mobile Devices */
+  body {
+    font-size: 16px; /* Adjust the font size for better readability */
   }
-  
-#AboutIMG {
-  width: 100%;
-}
-.btn_para {
-  flex: 1;
-}
 
-.ToolsIUsedSection {
-margin: 0px 20px;
-  
-}
-.toolContainer {
-  flex-direction: column; /* Change back to row for mobile */
-}
+  /* Header Styles */
+  .headClass {
+    height: auto; /* Adjust header height for mobile */
+    flex-direction: column;
+    align-items: center;
+  }
 
-.tools {
-  width: 100%; /* Full width for mobile */
-}
+  nav,
+  .headClass {
+    justify-content: center;
+    padding: 20px; /* Adjust padding for better spacing on mobile */
+  }
 
+  /* First Section Styles */
+  .firstSection {
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0; /* Adjust margin for better spacing on mobile */
+  }
 
+  .leftsection {
+    text-align: center;
+    font-size: 2rem; /* Adjust font size for better readability */
+  }
+
+  .rightsection {
+    width: 80%; /* Adjust image width for better display on mobile */
+  }
+
+  /* Popup Styles (for HTML, CSS, JavaScript, Git) */
+  .popup,
+  .popupcss,
+  .popupjs,
+  .popupgit {
+    width: 80%; /* Adjust pop-up width for better display on mobile */
+    height: auto; /* Adjust pop-up height for dynamic content on mobile */
+  }
+
+  /* ToolsIUsedSection Styles */
+  .ToolsIUsedSection {
+    padding: 20px; /* Adjust padding for better spacing on mobile */
+  }
+
+  .toolContainer {
+    flex-direction: column; /* Change back to row for mobile */
+  }
+
+  .tools {
+    width: 80%; /* Adjust tool width for better display on mobile */
+  }
+
+  /* About Me and Skills Sections Styles */
+  .aboutme {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .webtopimg,
+  .webimg,
+  .iosandroid {
+    width: 60%; /* Adjust image width for better display on mobile */
+    margin: 10px 0; /* Adjust margin for better spacing on mobile */
+  }
+
+  .skill-row {
+    width: 80%; /* Adjust the width for better display on mobile */
+    margin: 40px 0;
+  }
+
+  /* Contact Me Section Styles */
+  .contact-me {
+    padding: 20px;
+  }
+
+  .finputsec {
+    padding: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%; /* Adjust input width for full width on mobile */
+    margin: 0; /* Remove margin to fill the container */
+  }
+
+  .inputFromUser textarea {
+    width: 100%; /* Adjust textarea width for full width on mobile */
+  }
+
+  /* Footer Styles */
+  .bottom_container-top {
+    padding: 20px;
+  }
+
+  .bottom-container {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  a {
+    margin: 10px 0; /* Adjust margin for better spacing on mobile */
+  }
 }
