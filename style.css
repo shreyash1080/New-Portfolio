@@ -571,9 +571,17 @@ textarea {
 .btn_para {
   flex: 1;
 }
+
 .ToolsIUsedSection {
 margin: 0px 20px;
   
+}
+.toolContainer {
+  flex-direction: column; /* Change back to row for mobile */
+}
+
+.tools {
+  width: 100%; /* Full width for mobile */
 }
 
 
