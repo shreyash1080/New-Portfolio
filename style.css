@@ -557,3 +557,20 @@ textarea {
 .inputFromUser textarea {
   margin: 30px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .aboutme {
+     flex-direction: column;
+     text-align: center;
+  }
+  
+#AboutIMG {
+  width: 100%;
+}
+.btn_para {
+  flex: 1;
+}
+
+
+}
