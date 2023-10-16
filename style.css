@@ -614,6 +614,7 @@ textarea {
     width: 80%;
     margin: 40px 0;
     text-align: center;
+    padding-left: 20px;
   }
 
   .inputFromUser textarea {
