@@ -608,7 +608,8 @@ textarea {
   }
 
   .tools {
-    width: 80%; /* Adjust tool width for better display on mobile */
+  
+    padding: 20px;
   }
 
   /* About Me and Skills Sections Styles */
@@ -616,17 +617,21 @@ textarea {
 display: block;
   }
 
-  .webtopimg,
   .webimg,
   .iosandroid {
     width: 60%; 
-    margin: 10px 10px; /* Adjust margin for better spacing on mobile */
+    
   }
+.skills
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  .skill-row {
-    width: 80%; /* Adjust the width for better display on mobile */
-    margin: 40px 0;
-  }
+}
+.webimg{
+  margin-left: 30%;
+}
 
   /* Contact Me Section Styles */
   .contact-me {
@@ -649,14 +654,29 @@ display: block;
 }
 
 #skills{
-margin-left: 50px;
+
 display: block;
 }
-
+.skill-row  > p{
+  text-align: center;
+ 
+}
 
 .SKILLH3
 {
+
   display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.rightsection{
+  display: contents;
+}
+.skill-row {
+  width: 80%; /* Adjust the width for better display on mobile */
+  margin: 40px 0;
   text-align: center;
 }
   .inputFromUser textarea {
@@ -713,12 +733,7 @@ display: block;
   width: 400px;;
   }
   
-  .open-popup
-{
-  visibility: visible;
-  top: 1800px;
-  transform: translate(-50%,-50%) scale(1);
-}
+
 .popupcss
 {
   top:2400px;
