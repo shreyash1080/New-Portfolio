@@ -8,7 +8,7 @@ body {
   text-align: center;
   font-family: "Poppins", sans-serif;
   background-color: rgb(0, 0, 33);
-  overflow-x: hidden; 
+  overflow-x: hidden;
   color: white;
 }
 
@@ -22,9 +22,9 @@ p {
 .headClass {
   width: 100%;
   background-color: rgb(1, 1, 38);
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 5rem;
   position: fixed;
   top: 0;
@@ -44,7 +44,7 @@ a {
   text-decoration: none;
 }
 
-nav > a:hover {
+nav>a:hover {
   font-size: 25px;
   font-weight: 600;
 }
@@ -76,13 +76,15 @@ nav > a:hover {
   align-items: center;
 }
 
-.firstSection > div {
+.firstSection>div {
   width: 40%;
 }
+
 .leftsection {
   font-size: 3rem;
   margin: 30px 0;
 }
+
 .rightsection {
   width: 30%;
 }
@@ -113,21 +115,20 @@ main hr {
   max-width: 100vh;
   margin: auto;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 80px;
-  
+
 }
 
-.ToolsIUsedSection >h1
-{
+.ToolsIUsedSection>h1 {
   padding: 80px;
 }
 
 .toolContainer {
   display: flex;
-  
+
 }
 
 
@@ -136,14 +137,16 @@ main hr {
   height: 300px;
   background-color: rgb(33, 29, 53);
   margin: 10px 20px;
-  
+
 }
-.toolContainer img{
+
+.toolContainer img {
   margin-top: 50px;
   margin-bottom: 40px;
 
 }
-.readmore{
+
+.readmore {
 
   display: flex;
   align-items: center;
@@ -151,80 +154,79 @@ main hr {
   height: 60px;
 
 }
-.readmore img{
-  margin-top:40px;
- 
+
+.readmore img {
+  margin-top: 40px;
+
 }
-.readmore button{
+
+.readmore button {
   background-color: transparent;
   padding: 2px;
   border: none;
- color:rgb(90, 67, 203);
- font-size: 16px;
- margin-right: 10px;
+  color: rgb(90, 67, 203);
+  font-size: 16px;
+  margin-right: 10px;
 }
 
-.popup{
+.popup {
   background-color: rgb(33, 29, 53);
-  width:450px;
-  height:250px;
+  width: 450px;
+  height: 250px;
   position: absolute;
   top: 0;
   left: 50%;
   padding: 10px;
-  transform: translate(-50%,-50%) scale(0.1);
+  transform: translate(-50%, -50%) scale(0.1);
   visibility: hidden;
   transition: transform 0.4s, top 0.4s;
 }
 
-.open-popup
-{
+.open-popup {
   visibility: visible;
   top: 1700px;
-  transform: translate(-50%,-50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
-.popupcss
-{  background-color: rgb(33, 29, 53);
-  width:450px;
-  height:250px;
+.popupcss {
+  background-color: rgb(33, 29, 53);
+  width: 450px;
+  height: 250px;
   position: absolute;
   top: 0;
   left: 50%;
   padding: 10px;
-  transform: translate(-50%,-50%) scale(0.1);
+  transform: translate(-50%, -50%) scale(0.1);
   visibility: hidden;
   transition: transform 0.4s, top 0.4s;
 }
 
-.open-popupcss
-{
+.open-popupcss {
   visibility: visible;
   top: 1700px;
-  transform: translate(-50%,-50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 
 
 
-.popupjs
-{  background-color: rgb(33, 29, 53);
-  width:450px;
-  height:250px;
+.popupjs {
+  background-color: rgb(33, 29, 53);
+  width: 450px;
+  height: 250px;
   position: absolute;
   top: 0;
   left: 50%;
   padding: 10px;
-  transform: translate(-50%,-50%) scale(0.1);
+  transform: translate(-50%, -50%) scale(0.1);
   visibility: hidden;
   transition: transform 0.4s, top 0.4s;
 }
 
-.open-popupjs
-{
+.open-popupjs {
   visibility: visible;
   top: 1700px;
-  transform: translate(-50%,-50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 
@@ -233,24 +235,23 @@ main hr {
 
 
 
-.popupgit
-{  background-color: rgb(33, 29, 53);
-  width:450px;
-  height:250px;
+.popupgit {
+  background-color: rgb(33, 29, 53);
+  width: 450px;
+  height: 250px;
   position: absolute;
   top: 0;
   left: 50%;
   padding: 10px;
-  transform: translate(-50%,-50%) scale(0.1);
+  transform: translate(-50%, -50%) scale(0.1);
   visibility: hidden;
   transition: transform 0.4s, top 0.4s;
 }
 
-.open-popupgit
-{
+.open-popupgit {
   visibility: visible;
   top: 1700px;
-  transform: translate(-50%,-50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 
@@ -258,7 +259,7 @@ main hr {
 
 
 
-.popup button{
+.popup button {
   background-color: transparent;
   border: none;
   float: right;
@@ -267,18 +268,19 @@ main hr {
 
 }
 
-.popup h1{
+.popup h1 {
   float: left;
   margin-top: 20px;
 }
-.popup > p{
+
+.popup>p {
   padding-top: 80px;
-text-align: left;
+  text-align: left;
 }
 
 
 
-.popupcss button{
+.popupcss button {
   background-color: transparent;
   border: none;
   float: right;
@@ -287,19 +289,20 @@ text-align: left;
 
 }
 
-.popupcss h1{
+.popupcss h1 {
   float: left;
   margin-top: 20px;
 }
-.popupcss > p{
+
+.popupcss>p {
   padding-top: 80px;
-text-align: left;
+  text-align: left;
 }
 
 
 
 
-.popupjs button{
+.popupjs button {
   background-color: transparent;
   border: none;
   float: right;
@@ -308,13 +311,14 @@ text-align: left;
 
 }
 
-.popupjs h1{
+.popupjs h1 {
   float: left;
   margin-top: 20px;
 }
-.popupjs > p{
+
+.popupjs>p {
   padding-top: 80px;
-text-align: left;
+  text-align: left;
 }
 
 
@@ -322,7 +326,7 @@ text-align: left;
 
 
 
-.popupgit button{
+.popupgit button {
   background-color: transparent;
   border: none;
   float: right;
@@ -331,13 +335,14 @@ text-align: left;
 
 }
 
-.popupgit h1{
+.popupgit h1 {
   float: left;
   margin-top: 20px;
 }
-.popupgit > p{
+
+.popupgit>p {
   padding-top: 80px;
-text-align: left;
+  text-align: left;
 }
 
 
@@ -346,7 +351,7 @@ text-align: left;
 
 
 
-.htmlpara{
+.htmlpara {
   color: darkgoldenrod;
 }
 
@@ -356,8 +361,10 @@ text-align: left;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-  display: none; /* Initially hidden */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent black */
+  display: none;
+  /* Initially hidden */
 
 }
 
@@ -422,7 +429,7 @@ a {
 
 .contact-messege {
   width: 40%;
-  margin: 40px auto 60px; 
+  margin: 40px auto 60px;
 }
 
 .copyright {
@@ -489,17 +496,16 @@ html {
   vertical-align: top;
   margin-right: 20px;
   margin-bottom: 200px;
- padding: 10px;
+  padding: 10px;
 }
 
-.project-container > h2
-{
+.project-container>h2 {
   padding: 10px;
 }
 
 
 .project-container:nth-child(2) {
-  margin-top: -200px; 
+  margin-top: -200px;
 }
 
 
@@ -560,80 +566,72 @@ textarea {
 }
 
 @media (max-width: 768px) {
-  /* General Styles for Mobile Devices */
+
   body {
-    font-size: 16px; /* Adjust the font size for better readability */
+    font-size: 16px;
   }
 
-  /* Header Styles */
- 
-
- 
-  nav{
+  nav {
     display: inline-block;
   }
 
-  /* First Section Styles */
   .firstSection {
     flex-direction: column;
     align-items: center;
-    margin: 40px 0; /* Adjust margin for better spacing on mobile */
+    margin: 40px 0;
   }
 
   .leftsection {
     text-align: center;
-    font-size: 2rem; /* Adjust font size for better readability */
+    font-size: 2rem;
   }
 
   .rightsection {
-    width: 80%; /* Adjust image width for better display on mobile */
+    width: 80%;
   }
 
-  /* Popup Styles (for HTML, CSS, JavaScript, Git) */
   .popup,
   .popupcss,
   .popupjs,
   .popupgit {
-    width: 80%; /* Adjust pop-up width for better display on mobile */
-    height: auto; /* Adjust pop-up height for dynamic content on mobile */
+    width: 80%;
+    height: auto;
   }
 
-  /* ToolsIUsedSection Styles */
   .ToolsIUsedSection {
-    padding: 20px; /* Adjust padding for better spacing on mobile */
-  }
-
-  .toolContainer {
-    flex-direction: column; /* Change back to row for mobile */
-  }
-
-  .tools {
-  
     padding: 20px;
   }
 
-  /* About Me and Skills Sections Styles */
-  .aboutme > img{
-display: block;
+  .toolContainer {
+    flex-direction: column;
+  }
+
+  .tools {
+
+    padding: 20px;
+  }
+
+  .aboutme>img {
+    display: block;
   }
 
   .webimg,
   .iosandroid {
-    width: 60%; 
-    
+    width: 60%;
+
   }
-.skills
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-}
-.webimg{
-  margin-left: 30%;
-}
+  .skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  /* Contact Me Section Styles */
+  }
+
+  .webimg {
+    margin-left: 30%;
+  }
+
   .contact-me {
     padding: 20px;
   }
@@ -644,46 +642,47 @@ display: block;
 
   input[type="text"],
   input[type="email"] {
-    width: 100%; /* Adjust input width for full width on mobile */
-    margin: 0; /* Remove margin to fill the container */
+    width: 100%;
+    margin: 0;
   }
 
-.skillimg{
-  display: block;
-  
-}
+  .skillimg {
+    display: block;
 
-#skills{
+  }
 
-display: block;
-}
-.skill-row  > p{
-  text-align: center;
- 
-}
+  #skills {
 
-.SKILLH3
-{
+    display: block;
+  }
 
-  display: inline-block;
-  text-align: center;
-  margin-top: 30px;
+  .skill-row>p {
+    text-align: center;
 
-}
+  }
 
-.rightsection{
-  display: contents;
-}
-.skill-row {
-  width: 80%; /* Adjust the width for better display on mobile */
-  margin: 40px 0;
-  text-align: center;
-}
+  .SKILLH3 {
+
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+
+  }
+
+  .rightsection {
+    display: contents;
+  }
+
+  .skill-row {
+    width: 80%;
+    margin: 40px 0;
+    text-align: center;
+  }
+
   .inputFromUser textarea {
-    width: 100%; /* Adjust textarea width for full width on mobile */
+    width: 100%;
   }
 
-  /* Footer Styles */
   .bottom_container-top {
     padding: 20px;
   }
@@ -694,26 +693,27 @@ display: block;
   }
 
   a {
-    margin: 10px 0; /* Adjust margin for better spacing on mobile */
+    margin: 10px 0;
   }
 
-  #headHead{
+  #headHead {
     display: none;
   }
 
-  #homeid{
+  #homeid {
     display: none;
   }
 
-#yourMessage{
-  margin: 0;
-}
+  #yourMessage {
+    margin: 0;
+  }
 
   .Aboutimgesc {
     display: block;
     margin-bottom: 90px;
   }
-  .Aboutimgesc> img{
+
+  .Aboutimgesc>img {
     width: 800px;
     height: 200px;
   }
@@ -722,30 +722,29 @@ display: block;
     width: 200px;
     height: 150px;
     border-radius: 15px;
- 
-  }
-  main{
-     margin: 0;
+
   }
 
-  .rightsection > img       {
-
-  width: 400px;;
+  main {
+    margin: 0;
   }
-  
 
-.popupcss
-{
-  top:2400px;
-}
+  .rightsection>img {
 
-.popupjs
-{
-  top:2800px;
-}
+    width: 400px;
+    ;
+  }
 
-.popupgit
-{
-  top:3000px;
-}
+
+  .popupcss {
+    top: 2400px;
+  }
+
+  .popupjs {
+    top: 2800px;
+  }
+
+  .popupgit {
+    top: 3000px;
+  }
 }
