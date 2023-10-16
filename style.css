@@ -49,6 +49,8 @@ nav>a:hover {
   font-weight: 600;
 }
 
+
+
 #headHead {
   color: white;
   font-family: cursive;
@@ -59,6 +61,13 @@ nav>a:hover {
   margin-left: 60px;
 
 }
+
+
+
+
+
+
+
 
 .firstSection {
   display: flex;
@@ -100,6 +109,8 @@ main hr {
   margin: 40px 84px;
 }
 
+
+
 .ToolsIUsedSection {
   max-width: 100vh;
   margin: auto;
@@ -120,6 +131,7 @@ main hr {
 
 }
 
+
 .tools {
   width: 240px;
   height: 300px;
@@ -135,6 +147,7 @@ main hr {
 }
 
 .readmore {
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -194,6 +207,9 @@ main hr {
   transform: translate(-50%, -50%) scale(1);
 }
 
+
+
+
 .popupjs {
   background-color: rgb(33, 29, 53);
   width: 450px;
@@ -212,6 +228,12 @@ main hr {
   top: 1700px;
   transform: translate(-50%, -50%) scale(1);
 }
+
+
+
+
+
+
 
 .popupgit {
   background-color: rgb(33, 29, 53);
@@ -232,6 +254,11 @@ main hr {
   transform: translate(-50%, -50%) scale(1);
 }
 
+
+
+
+
+
 .popup button {
   background-color: transparent;
   border: none;
@@ -251,12 +278,15 @@ main hr {
   text-align: left;
 }
 
+
+
 .popupcss button {
   background-color: transparent;
   border: none;
   float: right;
   padding-top: 5px;
   padding-right: 5px;
+
 }
 
 .popupcss h1 {
@@ -269,12 +299,16 @@ main hr {
   text-align: left;
 }
 
+
+
+
 .popupjs button {
   background-color: transparent;
   border: none;
   float: right;
   padding-top: 5px;
   padding-right: 5px;
+
 }
 
 .popupjs h1 {
@@ -287,12 +321,18 @@ main hr {
   text-align: left;
 }
 
+
+
+
+
+
 .popupgit button {
   background-color: transparent;
   border: none;
   float: right;
   padding-top: 5px;
   padding-right: 5px;
+
 }
 
 .popupgit h1 {
@@ -305,6 +345,12 @@ main hr {
   text-align: left;
 }
 
+
+
+
+
+
+
 .htmlpara {
   color: darkgoldenrod;
 }
@@ -316,8 +362,20 @@ main hr {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent black */
   display: none;
+  /* Initially hidden */
+
 }
+
+
+
+
+
+
+
+
+
 
 .introduction {
   display: flex;
@@ -405,6 +463,8 @@ a {
   margin-bottom: 90px;
 }
 
+
+
 .aboutme h1 {
   padding-bottom: 90px;
 }
@@ -447,6 +507,7 @@ html {
 .project-container:nth-child(2) {
   margin-top: -200px;
 }
+
 
 .appleimg {
   width: 300px;
@@ -536,6 +597,10 @@ textarea {
     width: 80%;
     height: auto;
   }
+  .open-popup
+  {
+    top: 1950px;
+  }
 
   .ToolsIUsedSection {
     padding: 15px;
@@ -597,9 +662,11 @@ textarea {
 
   .skill-row>p {
     text-align: center;
+
   }
 
   .SKILLH3 {
+
     display: inline-block;
     text-align: center;
     margin-top: 30px;
@@ -614,7 +681,8 @@ textarea {
     width: 80%;
     margin: 40px 0;
     text-align: center;
-    padding-left: 20px;
+ padding-left: 20px;
+   
   }
 
   .inputFromUser textarea {
@@ -668,15 +736,12 @@ textarea {
   }
 
   .rightsection>img {
+
     width: 400px;
     ;
   }
 
-    .open-popup
-  {
-    top: 1950px;
-  }
-  
+
   .popupcss {
     top: 2400px;
   }
