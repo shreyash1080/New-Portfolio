@@ -444,7 +444,7 @@ a {
 }
 
 #AboutIMG {
-  width: 200px;
+  width: 400px;
   height: 300px;
   border-radius: 15px;
   margin-right: 30px;
@@ -455,6 +455,8 @@ a {
   justify-content: center;
   margin-bottom: 90px;
 }
+
+
 
 .aboutme h1 {
   padding-bottom: 90px;
@@ -564,16 +566,11 @@ textarea {
   }
 
   /* Header Styles */
-  .headClass {
-    height: auto; /* Adjust header height for mobile */
-    flex-direction: column;
-    align-items: center;
-  }
+ 
 
-  nav,
-  .headClass {
-    justify-content: center;
-    padding: 20px; /* Adjust padding for better spacing on mobile */
+ 
+  nav{
+    display: inline-block;
   }
 
   /* First Section Styles */
@@ -615,16 +612,15 @@ textarea {
   }
 
   /* About Me and Skills Sections Styles */
-  .aboutme {
-    flex-direction: column;
-    align-items: center;
+  .aboutme > img{
+display: block;
   }
 
   .webtopimg,
   .webimg,
   .iosandroid {
-    width: 60%; /* Adjust image width for better display on mobile */
-    margin: 10px 0; /* Adjust margin for better spacing on mobile */
+    width: 60%; 
+    margin: 10px 10px; /* Adjust margin for better spacing on mobile */
   }
 
   .skill-row {
@@ -647,6 +643,22 @@ textarea {
     margin: 0; /* Remove margin to fill the container */
   }
 
+.skillimg{
+  display: block;
+  
+}
+
+#skills{
+margin-left: 50px;
+display: block;
+}
+
+
+.SKILLH3
+{
+  display: inline-block;
+  text-align: center;
+}
   .inputFromUser textarea {
     width: 100%; /* Adjust textarea width for full width on mobile */
   }
@@ -664,4 +676,61 @@ textarea {
   a {
     margin: 10px 0; /* Adjust margin for better spacing on mobile */
   }
+
+  #headHead{
+    display: none;
+  }
+
+  #homeid{
+    display: none;
+  }
+
+#yourMessage{
+  margin: 0;
+}
+
+  .Aboutimgesc {
+    display: block;
+    margin-bottom: 90px;
+  }
+  .Aboutimgesc> img{
+    width: 800px;
+    height: 200px;
+  }
+
+  #AboutIMG {
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+ 
+  }
+  main{
+     margin: 0;
+  }
+
+  .rightsection > img       {
+
+  width: 400px;;
+  }
+  
+  .open-popup
+{
+  visibility: visible;
+  top: 1800px;
+  transform: translate(-50%,-50%) scale(1);
+}
+.popupcss
+{
+  top:2400px;
+}
+
+.popupjs
+{
+  top:2800px;
+}
+
+.popupgit
+{
+  top:3000px;
+}
 }
