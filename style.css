@@ -336,17 +336,23 @@ main hr {
 }
 
 .webimg {
-  width: 25%;
+  width: 30%;
   border-radius: 70%;
   float: left;
   margin-right: 30px;
 }
 
-.iosandroid {
-  border-radius: 200%;
-  width: 25%;
+.dotnetdev {
+  border-radius: 50%;
+  width: 30%;
   margin-left: 30px;
   float: right;
+}
+
+.graphqldev {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
 }
 
 p {
@@ -355,7 +361,7 @@ p {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 100px auto 130px auto;
   text-align: left;
 }
 
@@ -557,8 +563,7 @@ textarea {
     display: block;
   }
 
-  .webimg,
-  .iosandroid {
+  .webimg, .dotnetdev, .graphqldev {
     width: 60%;
   }
 
@@ -568,9 +573,13 @@ textarea {
     justify-content: center;
   }
 
-  .webimg {
-    margin-left: 30%;
+  .webimg, .graphqldev{
+margin-left: 23%;
   }
+
+.dotnetdev{
+margin-right: 50px;
+}
 
   .contact-me {
     padding: 20px;
