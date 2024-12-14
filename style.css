@@ -30,8 +30,7 @@ p {
   top: 0;
 }
 
-nav,
-.headClass {
+nav, .headClass {
   font-size: 21px;
   display: flex;
   justify-content: flex-end;
@@ -42,14 +41,13 @@ a {
   color: white;
   font-weight: 400;
   text-decoration: none;
+  transition: transform 0.3s ease, font-weight 0.3s ease;
 }
 
-nav>a:hover {
-  font-size: 25px;
+nav > a:hover {
+  transform: scale(1.2); /* Scale up the link */
   font-weight: 600;
 }
-
-
 
 #headHead {
   color: white;
@@ -61,13 +59,6 @@ nav>a:hover {
   margin-left: 60px;
 
 }
-
-
-
-
-
-
-
 
 .firstSection {
   display: flex;
@@ -109,8 +100,6 @@ main hr {
   margin: 40px 84px;
 }
 
-
-
 .ToolsIUsedSection {
   max-width: 100vh;
   margin: auto;
@@ -131,7 +120,6 @@ main hr {
 
 }
 
-
 .tools {
   width: 240px;
   height: 300px;
@@ -147,7 +135,6 @@ main hr {
 }
 
 .readmore {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,7 +144,6 @@ main hr {
 
 .readmore img {
   margin-top: 40px;
-
 }
 
 .readmore button {
@@ -207,9 +193,6 @@ main hr {
   transform: translate(-50%, -50%) scale(1);
 }
 
-
-
-
 .popupjs {
   background-color: rgb(33, 29, 53);
   width: 450px;
@@ -228,12 +211,6 @@ main hr {
   top: 1700px;
   transform: translate(-50%, -50%) scale(1);
 }
-
-
-
-
-
-
 
 .popupgit {
   background-color: rgb(33, 29, 53);
@@ -254,11 +231,6 @@ main hr {
   transform: translate(-50%, -50%) scale(1);
 }
 
-
-
-
-
-
 .popup button {
   background-color: transparent;
   border: none;
@@ -278,15 +250,12 @@ main hr {
   text-align: left;
 }
 
-
-
 .popupcss button {
   background-color: transparent;
   border: none;
   float: right;
   padding-top: 5px;
   padding-right: 5px;
-
 }
 
 .popupcss h1 {
@@ -298,9 +267,6 @@ main hr {
   padding-top: 80px;
   text-align: left;
 }
-
-
-
 
 .popupjs button {
   background-color: transparent;
@@ -321,18 +287,12 @@ main hr {
   text-align: left;
 }
 
-
-
-
-
-
 .popupgit button {
   background-color: transparent;
   border: none;
   float: right;
   padding-top: 5px;
   padding-right: 5px;
-
 }
 
 .popupgit h1 {
@@ -344,12 +304,6 @@ main hr {
   padding-top: 80px;
   text-align: left;
 }
-
-
-
-
-
-
 
 .htmlpara {
   color: darkgoldenrod;
@@ -367,15 +321,6 @@ main hr {
   /* Initially hidden */
 
 }
-
-
-
-
-
-
-
-
-
 
 .introduction {
   display: flex;
@@ -463,8 +408,6 @@ a {
   margin-bottom: 90px;
 }
 
-
-
 .aboutme h1 {
   padding-bottom: 90px;
 }
@@ -503,11 +446,9 @@ html {
   padding: 10px;
 }
 
-
 .project-container:nth-child(2) {
   margin-top: -200px;
 }
-
 
 .appleimg {
   width: 300px;
@@ -566,11 +507,9 @@ textarea {
 }
 
 @media (max-width: 768px) {
-
   body {
     font-size: 16px;
   }
-
   nav {
     display: inline-block;
   }
@@ -582,7 +521,6 @@ textarea {
   }
 
   .leftsection {
-
     font-size: 1.5rem;
   }
 
@@ -622,14 +560,12 @@ textarea {
   .webimg,
   .iosandroid {
     width: 60%;
-
   }
 
   .skills {
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
 
   .webimg {
@@ -652,7 +588,6 @@ textarea {
 
   .skillimg {
     display: block;
-
   }
 
   #skills {
@@ -666,7 +601,6 @@ textarea {
   }
 
   .SKILLH3 {
-
     display: inline-block;
     text-align: center;
     margin-top: 30px;
@@ -736,11 +670,9 @@ textarea {
   }
 
   .rightsection>img {
-
     width: 400px;
     ;
   }
-
 
   .popupcss {
     top: 2400px;
